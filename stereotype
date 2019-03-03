@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Sterotype Generator</h1>
+<h3>This is obviously a joke</h3> <br />
+<br /> <br />
+<br />
+
+<script>
+var possibleRaces = ["black people", "white people", "Chinese people", "Japanese people", "Korean people", "Indian people", "Irish people", "Scottish people", "Italian people", "French people", "Kenyan people", "Spanish people", "Mexican people", "Estonian people", "Pakistani people", "German people", "Swedish people", "American people", "British people", "Wakandan people"];
+
+var possibleStereotypes = ["so racist", "anime fans", "eating dogs so much", "harassing women", "sexist", "homophobic", "on the internet", "so stupid", "ugly", "unhygenic", "such hoes", "so gay", "so hard to understand", "so uptight", "so upper-class"];
+
+var randomRace = possibleRaces[Math.floor(Math.random() * possibleRaces.length)];
+
+var randomStereotype = possibleStereotypes[Math.floor(Math.random() * possibleStereotypes.length)]; 
+
+document.write("Why are " + randomRace + " always " + randomStereotype);
+</script>
+<br /> 
+<br /> <br />
+<br />
+<h5>To generate a new stereotype, refresh the page</h5>
+</body>
+</html>
